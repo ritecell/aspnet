@@ -1,0 +1,5 @@
+G:\WIZIQ\ASP.NET\HandOn\HumzaAspNetApplication\bin\HumzaAspNetApplication.dll
+G:\WIZIQ\ASP.NET\HandOn\HumzaAspNetApplication\bin\HumzaAspNetApplication.pdb
+G:\WIZIQ\ASP.NET\HandOn\HumzaAspNetApplication\obj\Debug\HumzaAspNetApplication.dll
+G:\WIZIQ\ASP.NET\HandOn\HumzaAspNetApplication\obj\Debug\HumzaAspNetApplication.pdb
+G:\WIZIQ\ASP.NET\HandOn\HumzaAspNetApplication\obj\Debug\HumzaAspNetApplication.csprojResolveAssemblyReference.cache

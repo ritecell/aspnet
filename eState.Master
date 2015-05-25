@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="eState.master.cs" Inherits="HumzaAspNetApplication.eState" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/eRState.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .leftCol
+        {
+            float:left; 
+            width:15%;
+            border-right:1px solid black;
+        }
+        .rightCol
+        {
+            float:right; 
+            width:80%;
+            border-left:1px solid black;
+        }
+        .logo
+        {
+            margin-left:50px;
+        }
+        .floatRight
+        {
+            float:right;
+        }
+        .floatLeft
+        {
+            float:left;
+        }
+        .callUsText
+        {
+            font-size:18px;
+            font-weight:bold;
+            color:White;
+            background:url('/images/footerbg.jpg');
+            background-repeat:repeat;
+            width:100%;
+            height:34px;            
+        }
+        .vertical
+        {
+            height:15px;
+            width:0px;
+            float:right;
+            margin-top:0px;
+            border-top-width:0px;
+            
+        }
+        .navigation
+        {
+            width:100px;
+            float:left;
+            margin-left:50px;
+            margin-top:30px;
+            height:30px;
+        }
+        .navLinks
+        {
+            padding-top:5px;
+            text-decoration:none;
+            color:Black;
+        }
+        .navDiv
+        {
+            height:90px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <div class="callUsText">
+            <span class="floatRight" style="margin-right:50px; margin-top:5px">Call Us Find Your Property  |  888-721-2227</span>
+        </div>
+        <div>
+            <div class="floatLeft">
+                <img class="logo" src="images/shlogo.jpg" alt="" />
+            </div>
+            <div class="floatLeft navDiv">
+                <div class="navigation"><a href="" class="navLinks" >Home</a><hr class="vertical" /></div>
+                <div class="navigation"><a href="" class="navLinks">Why SH</a><hr class="vertical" /></div>
+                <div class="navigation"><a href="" class="navLinks">Properties</a><hr class="vertical" /></div>
+                <div class="navigation"><a href="" class="navLinks">Services</a><hr class="vertical" /></div>
+                <div class="navigation"><a href="" class="navLinks">Industries</a><hr class="vertical" /></div>
+                <div class="navigation"><a href="" class="navLinks">Contact</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="body"></div>
+    <div id="footer"></div>
+    </form>
+</body>
+</html>
